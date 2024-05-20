@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: #17107c;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.subtitle span {
+    color: green ;
+    font-weight: 600;
+}
+
+.wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.wrapper img {
+    width: 40%;
+    height: 300px;
+}
+
+.wrapper iframe {
+    width: 40%;
+    height: 300px;
+}
+
+table{
+    width: 80%;
+    margin:0 auto;
+    border-collapse:collapse ;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+thead td {
+    background: transparent;
+    border: 1px solid yellow;
+}
+
+tbody td {
+    background: #1280b3;
+    border: 1px solid yellow;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 14px;
+}
+
